@@ -4,7 +4,10 @@ RETRO 95 – An experimental, AI-assisted custom operating system written in C a
 <img width="1028" height="772" alt="image" src="https://github.com/user-attachments/assets/35a62655-ba2b-4c3f-b833-066950af3096" />
 
 This is the OS demo!
-[![Watch Demo](https://img.shields.io/badge/Watch-Demo-blue?style=for-the-badge)](https://github.com/LetMePlaySong/Retro-95/blob/main/Demo.webm)
+## Demo
+<video width="100%" controls>
+  <source src="https://github.com/LetMePlaySong/Retro-95/raw/refs/heads/main/Demo.mp4" type="video/mp4">
+</video>
 
 An experiment to push AI-assisted programming to its limits.
 
