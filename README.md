@@ -53,3 +53,63 @@ Disclaimer
 RETRO 95 is an independent experimental project. It is not affiliated with, endorsed by, or sponsored by Microsoft.
 
 Windows 95 is referenced solely as inspiration for the retro desktop aesthetic.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+🚀 How to Run RETRO 95
+
+RETRO 95 is provided as a bootable ISO image.
+
+Finding the ISO
+Open the downloaded project folder named Retro 95 - real OS.
+Open the folder named build.
+Locate retro95.iso.
+Select this ISO file when creating or configuring your virtual machine.
+
+You can use the ISO with:
+
+QEMU
+Oracle VirtualBox
+Compatible physical hardware
+
+For physical hardware, write the ISO to a suitable bootable USB drive and boot from it. Make sure you understand that booting on real hardware can carry risks, so back up important data first.
+
+⚠️ Troubleshooting: VirtualBox 64-bit Mode
+
+If you cannot boot RETRO 95 in VirtualBox and receive an error such as:
+
+64-bit mode is not supported for this CPU
+
+Don't worry! QEMU is an alternative emulator you can try.
+
+VirtualBox workaround (Windows)
+
+You can try enabling x86 long mode for your virtual machine.
+
+1. Open Command Prompt as Administrator.
+
+2. Navigate to the VirtualBox installation directory:
+
+cmd
+cd "C:\Program Files\Oracle\VirtualBox"
+
+
+3. Enable x86 long mode:
+
+Replace Your-VM-Name with the actual name of your virtual machine.
+
+cmd
+VBoxManage modifyvm "Your-VM-Name" --x86-long-mode on
+
+
+4. Restart VirtualBox and try booting RETRO 95 again.
+
+Important: This setting cannot add 64-bit CPU capabilities to an unsupported processor. Your CPU and virtualization configuration must support the required operating mode. If the issue persists, check whether Intel VT-x or AMD-V is enabled and available.
+
+If VirtualBox still doesn't work, try running RETRO 95 using QEMU instead.
+
+Thank you for checking out RETRO 95!
+
+This project is an ongoing experiment in AI-assisted operating-system development. Bugs, missing features and limitations are expected while development continues.
+
+Enjoy exploring RETRO 95! ❤️
