@@ -7,6 +7,8 @@ RETRO 95 – An experimental, AI-assisted custom operating system written in C a
 
 https://github.com/user-attachments/assets/a3d81e1a-5fe4-4c2c-8155-4b84accd09d8
 
+## Description
+
 An experiment to push AI-assisted programming to its limits.
 
 RETRO 95 is an experimental operating system developed with the help of AI inside Visual Studio Code.
