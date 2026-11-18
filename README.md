@@ -141,6 +141,8 @@ For physical hardware, write the ISO to a suitable bootable USB drive and boot f
 
 🌐 Getting Internet Working (V2 Only)
 
+https://github.com/user-attachments/assets/0112467b-deb9-4876-95f9-9df3d8705499
+
 RETRO 95 V2 includes networking driver support, allowing it to connect to a network when used with compatible virtual network hardware.
 
 Important: Internet connectivity instructions apply to V2. V1 does not include the networking functionality introduced in V2.
