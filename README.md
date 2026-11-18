@@ -1,14 +1,14 @@
-Retro-95
-
+##**Retro-95
+**
 RETRO 95 – An experimental, AI-assisted custom operating system written in C and Assembly, inspired by the classic Windows 95 desktop experience. Built to push AI-assisted development in Visual Studio Code to its limits and explore whether AI could help create an entire operating system from scratch.
 
 <img width="1028" height="772" alt="image" src="https://github.com/user-attachments/assets/35a62655-ba2b-4c3f-b833-066950af3096" />
 
-Demo
+##**Demo**
 
 https://github.com/user-attachments/assets/a3d81e1a-5fe4-4c2c-8155-4b84accd09d8
 
-Description
+##**Description**
 
 An experiment to push AI-assisted programming to its limits.
 
@@ -18,8 +18,8 @@ The original goal was simple: push AI as far as possible and see whether it coul
 
 What started as an experiment turned into a custom operating system with its own kernel, hardware drivers, graphical desktop environment, window manager and built-in applications.
 
-RETRO 95 Versions
-
+##**RETRO 95 Versions
+**
 RETRO 95 currently has two versions: V1 (Original Edition) and V2 (Expanded Edition).
 
 Both versions are available as separate releases and represent different stages of the project's development.
@@ -113,13 +113,13 @@ This project explores how far AI-assisted software development can go when appli
 
 It is also an experiment in collaboration between human direction, AI-generated code, debugging and iterative development.
 
-Disclaimer
+##**Disclaimer**
 
 RETRO 95 is an independent experimental project. It is not affiliated with, endorsed by, or sponsored by Microsoft.
 
 Windows 95 is referenced solely as inspiration for the retro desktop aesthetic.
 
-🚀 How to Run RETRO 95
+##**🚀 How to Run RETRO 95**
 
 RETRO 95 is provided as a bootable ISO image.
 
@@ -139,8 +139,8 @@ Compatible physical hardware
 
 For physical hardware, write the ISO to a suitable bootable USB drive and boot from it. Make sure you understand that booting on real hardware can carry risks, so back up important data first.
 
-🌐 Getting Internet Working (V2 Only)
-
+##**🌐 Getting Internet Working (V2 Only)
+**
 RETRO 95 V2 includes networking driver support, allowing it to connect to a network when used with compatible virtual network hardware.
 
 Important: Internet connectivity instructions apply to V2. V1 does not include the networking functionality introduced in V2.
@@ -214,7 +214,7 @@ Restart the virtual machine after changing network settings.
 
 Important: Selecting an E1000 adapter and enabling NAT does not automatically guarantee internet connectivity. RETRO 95 V2 must successfully initialise its networking driver and configure its network connection.
 
-💾 Storage Support (V2)
+##**💾 Storage Support (V2)**
 
 RETRO 95 V2 introduces storage driver support and persistent disk storage capabilities.
 
@@ -222,8 +222,8 @@ This is an expansion beyond the original V1 release, which relies on RAM for its
 
 Storage functionality depends on the supported virtual disk controller and hardware configuration.
 
-⚠️ Troubleshooting: VirtualBox 64-bit Mode
-
+##**⚠️ Troubleshooting: VirtualBox 64-bit Mode
+**
 If you cannot boot RETRO 95 in VirtualBox and receive an error such as:
 
 64-bit mode is not supported for this CPU
@@ -252,7 +252,8 @@ Important: This setting cannot add 64-bit CPU capabilities to an unsupported pro
 
 If VirtualBox still doesn't work, try running RETRO 95 using QEMU instead.
 
-Thank You!
+##  
+**Thank You!
 
 Thank you for checking out RETRO 95!
 
@@ -262,4 +263,4 @@ Both versions are still being developed, and bugs, minor GUI issues, missing fea
 
 Two versions. One experiment. Pushing AI-assisted operating-system development further.
 
-Enjoy exploring RETRO 95! ❤️
+Enjoy exploring RETRO 95! ❤️**
