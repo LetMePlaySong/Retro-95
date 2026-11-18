@@ -20,7 +20,7 @@ What started as an experiment turned into a custom operating system with its own
 
 RETRO 95 Versions
 
-RETRO 95 currently has two versions: V1 (Original) and V2 (Expanded Edition).
+RETRO 95 currently has two versions: V1 (Original Edition) and V2 (Expanded Edition).
 
 Both versions are available as separate releases and represent different stages of the project's development.
 
@@ -85,7 +85,7 @@ Current Development Status & Known Issues
 
 Both RETRO 95 V1 and V2 are still works in progress and remain under active development.
 
-Although both versions feature a functional graphical desktop environment, users may encounter small GUI bugs, visual glitches, unexpected behaviour and incomplete features.
+Although both versions feature a functional graphical desktop environment, users may encounter minor GUI bugs, visual glitches, unexpected behaviour and incomplete features.
 
 Some known areas that may require further improvements include:
 
@@ -100,7 +100,7 @@ V2 introduces additional functionality, including networking and storage support
 
 Please keep in mind:
 
-Neither V1 nor V2 is considered a finished operating system.
+V1 and V2 are not considered finished operating systems.
 Minor GUI bugs and glitches are expected.
 Features may change or improve between releases.
 Development, testing, debugging and optimisation are ongoing.
@@ -159,7 +159,7 @@ bash
 This configuration:
 
 Enables QEMU user-mode NAT networking.
-Emulates an Intel E1000 Ethernet adapter.
+Emulates an Intel E1000 network adapter.
 Allows the guest operating system to access external networks through the host.
 
 Make sure your host computer has an active internet connection.
